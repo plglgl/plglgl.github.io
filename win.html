@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<title>final</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			Completa este laberinto HTML
+		</header>
+		<nav>
+			<a href="index.html">comienzo</a>>>
+			<a href="1-1.html">1-1</a>>>
+			<a href="1-2.html">1-2</a>>>
+			<a href="2-1.html">2-1</a>>>
+			<a href="2-2.html">2-2</a>>>
+			<a href="3-1.html">3-1</a>>>
+			<a href="4-1.html">4-1</a>>>
+			<a href="5-1.html">5-1</a>>>
+			<a href="win.html">final</a>
+		</nav>
+		<main>
+			<section>
+				<article>
+					<span id="prompt">escoge «h2»</span>
+					<div id="opt">
+						<h1><a href="deadend.html">este</a></h1>
+					</div>
+					<div id="opt">
+						<h2><a href="#" id="good">¿o este?</a></h2>
+					</div>
+					<div id="opt">
+						<h3><a href="deadend.html">no, este</a></h3>
+					</div>
+				</article>
+				<article>
+					<span id="prompt">escoge «strong»</span>
+					<div id="opt">
+						<p><a href="2-1.html" id="good"><strong>este</strong></a></p>
+					</div>
+					<div id="opt">
+						<p><a href="deadend.html"><em>¿o este?</em></a></p>
+					</div>
+					<div id="opt">
+						<p><a href="deadend.html"><del>no, este</del></a></p>
+					</div>
+				</article>
+			</section>
+			<section>
+				<article>
+					<span id="prompt">escoge «ul»</span>
+					<div id="opt">
+						<a href="2-2.html" id="good"><ul><li>este</li></ul></a>
+					</div>
+					<div id="opt">
+						<a href="deadend.html"><ol><li>¿o este?</li></ol></a>
+					</div>
+					<div id="opt">
+						<a href="deadend.html">
+							<dl>
+								<dt>no,</dt>
+								<dd>este</dd>
+							</dl>
+						</a>
+					</div>
+				</article>
+        <article>
+          <span id="prompt">escoge «dl»</span>
+          <div id="opt">
+						<a href="deadend.html"><ol><li>este</li></ol></a>
+					</div>
+					<div id="opt">
+						<a href="3-1.html" id="good">
+							<dl>
+								<dt>¿o</dt>
+								<dd>este?</dd>
+							</dl>
+						</a>
+					</div>
+					<div id="opt">
+						<a href="deadend.html">
+            	<ul><li>no,</li></ul>
+            	<ol><li>este</li></ol>
+          	</a>
+					</div>
+        </article>
+			</section>
+			<section>
+				<article>
+					<span id="prompt">escoge «img»</span>
+					<div id="opt" class="good">
+						<a href="4-1.html" id="good"><img src="a-picture.png" width="200px"></a>
+					</div>
+					<div id="opt">
+						<a href="deadend.html">
+							<audio src="a-sound.mp3" controls="controls"></audio>
+						</a>
+					</div>
+					<div id="opt">
+						<a href="deadend.html">
+							<video src="a-video.mp4" controls="controls"></video>
+						</a>
+					</div>
+				</article>
+			</section>
+      <section>
+        <article>
+          <span id="prompt">escoge «td colspan="2"»</span>
+            <table border="1">
+              <tbody>
+                <tr>
+                  <td rowspan="2" id="opt">
+                    <a href="deadend.html"><div></div></a>
+                  </td>
+                  <td colspan="2" id="opt" class="good">
+                    <a href="5-1.html"><div></div></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="opt">
+                    <a href="deadend.html"><div></div></a>
+                  </td>
+                  <td id="opt">
+                    <a href="deadend.html"><div></div></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" id="opt">
+                    <a href="deadend.html"><div></div></a>
+                  </td>
+                </tr>
+             </tbody>
+            </table>
+        </article>
+      </section>
+      <section>
+        <article>
+          <span id="prompt">escoge «option»</span>
+          <form>
+            <p>
+              <label for="nombre">nombre</label>
+              <a href="deadend.html"><input type="text" name="nombre"></a>
+              <label for="apellido">apellido</label>
+              <a href="deadend.html"><input type="text" name="apellido"></a>
+            </p>
+            <p>
+              <label for="genero-h">hombre</label>
+              <a href="deadend.html"><input type="checkbox" name="genero"></a>
+              <label for="genero-m">mujer</label>
+              <a href="deadend.html"><input type="checkbox" name="genero-m"></a>
+            </p>
+            <p class="good">
+              <label for="genero-h">hombre</label>
+              <a href="win.html">
+                <select name="provincia" size="2">
+                  <option value="coruna">A Coruña</option>
+                  <option value="pontevedra">Pontevedra</option>
+                  <option value="lugo">Lugo</option>
+                  <option value="orense">Orense</option>
+                </select>
+              </a>
+            </p>
+          </form>
+        </article>
+      </section>
+      <section>
+        <article>
+          u win
+        </article>
+      </section>
+		</main>
+		<footer>
+			Pedro Luis González
+		</footer>
+	</body>
+</html>
