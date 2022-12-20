@@ -1,0 +1,77 @@
+body {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: serif;
+}
+
+h1 {
+	color: #008484;
+}
+
+p strong {
+	color: red;
+	font-weight: bold;
+}
+
+.destacado {
+	color: #FFA500;
+}
+
+#subtitulo {
+	color: blue;
+}
+
+p em {
+	font-style: italic;
+	color: blue;
+}
+
+a {
+	text-decoration: underline;
+	color: red;
+
+}
+
+#adicional {
+	color: #848400;
+}
+
+#adicional a {
+	color: green;
+}
+
+span#especial {
+	color: magenta;
+}
+
+span.especial {
+	color: purple;
+}
+
+caption {
+	color: blue;
+}
+
+table {
+	color: green;
+}
+
+table, th, td {
+	border: 1px black solid;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+tfoot {
+	font-weight: bold;
+	color: red;
+}
+
+td strong {
+	font-weight: bold;
+	color: orange;
+}
+
+th.especial {
+	color: orange
+}

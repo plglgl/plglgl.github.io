@@ -1,0 +1,23 @@
+body {
+	background: #282828;
+	color: #EEEEEE;
+}
+
+.section {
+		margin-bottom: 1em;
+		box-sizing: border-box;
+}
+
+.horizontal {
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.leftside {
+	width: 20%;
+}
+
+.rightside {
+	width: 79%;
+	vertical-align: top;
+}

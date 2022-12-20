@@ -1,0 +1,108 @@
+body {
+	background: #f4d4d3;
+	padding: 10px;
+}
+
+div.header {
+	background: white;
+	text-align: center;
+	padding: 10px;
+}
+
+div.header * {
+	margin: 10px 10px auto auto;
+}
+
+div.header h1 {
+	color: navy;
+}
+
+div.header h2 {
+	color: #663366;
+}
+
+div.navbar {
+	background: black;
+	padding: .3em;
+	position: sticky;
+	top: 0px;
+}
+
+div.navbar a {
+	margin: auto 2em;
+	color: #deeebc;
+}
+
+div.navbar a:hover {
+	color: aqua;
+}
+
+div.main {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.section {
+	background: #deeebc;
+	padding: 1em;
+	margin: 0px;
+	width: 75%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+div.section h1, h2 {
+	color: olive;
+	text-align: center;
+}
+
+div.section h3 {
+	color: #663366;
+	text-align: left;
+}
+
+div.article {
+	background: white;
+	color: black;
+	border: aqua 3px solid;
+	padding: .3em 2em;
+}
+
+div.aside  {
+	margin: 0px;
+	width: 24%;
+	padding: 1em;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.aside div {
+	background: white;
+	border: navy 3px solid;
+	color: black;
+	padding: 1em;
+}
+
+div.aside div h1 {
+	text-align: center;
+}
+
+div.aside div p {
+	padding: 1em;
+}
+
+div.footer {
+	background: aqua;
+	color: black;
+	text-align: center;
+	padding: 1em;
+}
+
+div.footer p {
+	margin: auto;
+}
+
+div.footer a {
+	color: green;
+}
